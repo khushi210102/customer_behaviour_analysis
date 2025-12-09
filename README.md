@@ -20,59 +20,96 @@ Behavioral patterns (discount usage, frequency of purchases, shipping type, revi
 Missing Values: 37 missing review ratings (handled during cleaning)
 
 Tools & Technologies:
+
 Python: pandas, numpy, matplotlib/seaborn
+
 SQL: MySQL
+
 Power BI: Interactive dashboard creation
 
 Jupyter Notebook / VS Code: Development environment
+
  Project Steps
-1. Data Loading (Python):
+ 1. Data Loading (Python)
+
 Imported dataset using pandas
+
 Inspected structure using df.info() and df.describe()
+
 Verified data types and basic statistics
 
-2. Exploratory Data Analysis (EDA):
+2. Exploratory Data Analysis (EDA)
+
 Univariate, bivariate, and multivariate analysis
+
 Visualized patterns using histograms, boxplots, and bar charts
+
 Identified outliers, trends, and missing values
 
 3. Data Cleaning & Preparation:
+   
 Handled missing values in review ratings using median imputation
+
 Standardized column names (snake_case)
+
 Removed redundant fields (e.g., duplicate promo features)
 
 Engineered new features such as:
+
 purchase_frequency_days
+
 customer_segment
+
 Exported cleaned dataset to SQL database
 
 4. SQL Analysis:
+   
 Performed business-driven SQL queries, including:
+
 Revenue analysis by gender, category, and subscription status
+
 High-spending discount users
 
 Top-rated products:
+
 Shipping type comparison
+
 Product dependency on discounts
+
 Customer segmentation using purchase history
+
 Product ranking by popularity
 
 5. Power BI Dashboard:
+
 Built an interactive dashboard to visualize:
+
 Revenue by category, gender, season, subscriber status
+
 Purchase trends and frequency patterns
+
 Top products & customer segments
+
 Impact of discounts and shipping types
+
 Overall KPIs (total customers, revenue, average spend)
 
 6. Final Report & Presentation:
+   
 Summarized key insights and business recommendations
+
 Created a clean, modern presentation in Gamma
+
 Highlighted opportunities to improve customer retention, marketing strategy, and product positioning
 
 Key Results & Insights:
+
 Identified high-value customer segments and top-performing categories
+
 Analyzed how discounts affect revenue and customer behavior
+
 Found product groups highly dependent on promotions
+
 Uncovered patterns linked to shipping preference, seasonal trends, and repeat purchases
+
 Provided actionable recommendations to improve retention and boost revenue
