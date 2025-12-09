@@ -12,8 +12,11 @@ Type: Customer shopping behavior
 
 Key Features:
 Demographics (age, gender, location, subscription status)
+
 Purchase details (category, purchase amount, quantity, color, size)
+
 Behavioral patterns (discount usage, frequency of purchases, shipping type, review rating)
+
 Missing Values: 37 missing review ratings (handled during cleaning)
 
 Tools & Technologies:
